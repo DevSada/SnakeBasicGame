@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#snake-field{
+	background: black;
+	border: 1px solid green;
+}
+
+#snake-start, #snake-renew{
+	width: 150px;
+	padding: 15px;
+	color: white;
+	background: green;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	margin-right: 10px;
+}
+
+.game-table{border-collapse: collapse;}
+
+td.game-table-cell{
+	width: 15px;
+	height: 15px;
+	border: 1px dotted #eee;
+	border-collapse: collapse;
+}
+
+.snake-unit{
+	background: white;
+}
+
+.food-unit{
+	background: red;
+}
+
+.wall-unit{
+	background: green;
+}
